@@ -4,25 +4,22 @@
     <meta charset="UTF-8">
     <title>Ūkio naujienos ir blogas</title>
     <style>
-                html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-main {
-    flex: 1;
-}
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4fff4; }
         header, footer { background: #2e7d32; color: #fff; padding: 1em 2em; }
         nav ul { list-style: none; padding: 0; margin: 0; display: flex; }
         nav li { margin-right: 1em; }
         nav a { color: #fff; text-decoration: none; }
-        main { padding: 2em; }
+        main { padding: 2em; flex: 1; }
         section { margin-bottom: 2em; }
         .map-container { text-align: center; margin-bottom: 2em; }
         iframe { border-radius: 10px; border: 0; width: 100%; max-width: 600px; height: 400px; }
@@ -63,7 +60,7 @@ main {
             <small>2025-11-10</small>
         </article>
     </section>
-
+</main>
     <footer>
         &copy; 2025 Tintelių Ekologiškas Ūkis. Visos teisės saugomos.
     </footer>
